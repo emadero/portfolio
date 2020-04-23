@@ -1,0 +1,53 @@
+body{
+    background-color: #eeeeee;
+    font-family: 'Montserrat', sans-serif;
+}
+h1{
+    font-size: 55px;
+    color: rgb(45, 45, 45);
+    font-weight: 800;
+    margin-left: 5px;
+}
+}
+h2{    
+    font-size: 22px;
+    line-height: 40px;
+    color: rgb(45, 45, 45);
+}
+.nav-link{
+    color: #4b4b4b;
+    text-decoration: none;
+    font-size: 20px;
+    width: 230px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-left: 44px;
+    padding: 5px;
+}
+.nav-item :hover{
+    color: rgb(47, 4, 4);
+}
+nav .active{
+    text-decoration: underline;
+    text-underline-position: under;
+    font-weight: bold;
+}
+.navbar-toggler-icon{
+    border: 1px solid #797676;
+    padding: 7px;
+    width: 40px;
+    height: 37px;
+    border-radius: 5px;
+    margin-left: 320px;
+}
+.btn{
+    background-color: black;
+    color: white;
+    border-radius: 0px;
+}
+.form-control{
+    background-color: #eeeeee;
+    border: 0;
+    border-bottom: 1px solid;
+    border-radius: 0px;
+}
