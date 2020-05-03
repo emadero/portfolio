@@ -4,15 +4,15 @@ body{
 }
 h1{
     font-size: 55px;
+    padding-bottom: 20px;
     color: rgb(45, 45, 45);
     font-weight: 800;
-    margin-left: 5px;
-}
 }
 h2{    
     font-size: 22px;
     line-height: 40px;
     color: rgb(45, 45, 45);
+    font-weight: 800;
 }
 .nav-link{
     color: #4b4b4b;
@@ -21,8 +21,8 @@ h2{
     width: 230px;
     text-transform: uppercase;
     text-align: center;
-    margin-left: 44px;
-    padding: 5px;
+    margin-left: 30px;
+    padding: 12px;
 }
 .nav-item :hover{
     color: rgb(47, 4, 4);
@@ -32,13 +32,13 @@ nav .active{
     text-underline-position: under;
     font-weight: bold;
 }
-.navbar-toggler-icon{
+.navbar-toggler-icon {
     border: 1px solid #797676;
     padding: 7px;
     width: 40px;
     height: 37px;
     border-radius: 5px;
-    margin-left: 320px;
+    margin-left: 290px;
 }
 .btn{
     background-color: black;
@@ -50,4 +50,110 @@ nav .active{
     border: 0;
     border-bottom: 1px solid;
     border-radius: 0px;
+}
+.optDown{
+    color: rgb(45, 45, 45);
+}
+.optDown:hover{
+    text-decoration: underline;
+    color: rgb(45, 45, 45);
+}
+footer{
+    background-color: white;
+    color: black;
+
+}
+footer a {
+    color: black;
+    font-weight: bolder;
+}
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+footer i {
+    font-size: 32px;
+    border: 1px solid;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    padding: 8px 0 0 0;
+    border-radius: 80px;
+    margin: 0px 15px;
+}
+
+.bg-white p{
+    min-height: 110px;
+    background-color: white;
+}
+#proyectos img {
+    height: 260px;
+    width: 100%;
+}
+#proyectos h2{
+    font-size: 18px;
+    font-weight: bold;
+}
+.img-circle{
+    margin: 1em auto;
+    display: block;
+    background-color: #fff;
+    padding: 10px;
+    box-shadow: inset 5px 5px 10px 0px rgba(209,209,209,0.63);
+}
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+@media (max-width: 700px){
+    h1{
+        font-size: 40px;
+    }
+    #contacto h2{
+        font-size: 20px;
+        line-height: 30px;
+    }
+}
+#sobre-mi i {
+    background-color: black;
+    color: white;
+    padding: 30px;
+    font-size: 40px;
+}
+.img-circle {
+    margin: 1em auto;
+    display: block;
+    background-color: #fff;
+    padding: 10px;
+    box-shadow: inset 5px 5px 10px 0px rgba(209,209,209,0.63);
+    border-radius: 50%;
+}
+#experiencia{
+    background-color: rgb(45, 45, 45);
+    color: white;
+}
+.navbar-toggler {
+    font-size: 1.25rem;
+    line-height: 1;
+    background-color: transparent;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+    margin-left: -315px;
+}
+#experiencia h3 {
+    color: white;
+    font-size: 20px;
+}
+#experiencia h4 {
+    color: white;
+    font-size: 18px;
+    font-weight: normal;
+}
+#experiencia h2 {
+    color: white;
+    font-size: 45px;}
+    font-weight: boldñ;
 }
