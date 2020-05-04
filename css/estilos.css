@@ -12,7 +12,7 @@ h2{
     font-size: 22px;
     line-height: 40px;
     color: rgb(45, 45, 45);
-    font-weight: 800;
+    font-weight: 500;
 }
 .nav-link{
     color: #4b4b4b;
@@ -95,7 +95,7 @@ footer i {
 }
 #proyectos h2{
     font-size: 18px;
-    font-weight: bold;
+    font-weight: 500;
 }
 .img-circle{
     margin: 1em auto;
@@ -154,6 +154,32 @@ footer i {
 }
 #experiencia h2 {
     color: white;
-    font-size: 45px;}
-    font-weight: boldñ;
+    font-size: 45px;
+    font-weight: bold;
+}
+@media (max-width: 970px)
+{
+    #footmb{
+        position: fixed;
+        display: block;
+        bottom: 0px;
+        width: 100%;
+    }
+    #iconsfoot{
+        display: none;
+    }
+    #patrocinio{
+        padding-bottom: 20px;
+    }
+}
+@media (min-width: 970px)
+{
+    #footmb{
+        display: none;
+    }
+}
+#Inicio {
+    background-image: url('../images/Fondos-01.png');
+    background-size: 100%;
+    height: 81vh;
 }
