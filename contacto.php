@@ -1,5 +1,22 @@
+<?php 
+include_once ("PHPMailer/src/PHPMailer.php");
+include_once ("PHPMailer/src/SMTP.php");
+
+/*if($_POST){
+    $nombre = $_POST["txtNombre"];
+    $correo = $_POST["txtCorreo"];
+    $nombre = $_POST["txtAsunto"];
+    $nombre = $_POST["txtMensaje"];
+}
+//envio el correo
+if($nombre)
+*/
+
+?>
+
 <!DOCTYPE html>
 <html lang="es">
+
 
 <head>
     <meta charset="UTF-8">
@@ -18,30 +35,8 @@
 
 <body>
     <div class="container">
-        <nav class="navbar navbar-expand-md">
+    <?php include_once("menu.php");?>
 
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault"
-                aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon fa fa-bars"></span>
-            </button>
-
-            <div class="collapse navbar-collapse" id="navbarsExampleDefault">
-                <ul class="navbar-nav mr-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="index.html">Inicio</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="sobre-mi.html">Sobre Mí</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="proyectos.html">Proyectos</a>
-                    </li>
-                    <li class="nav-item active">
-                        <a class="nav-link" href="contacto.html">Contacto</a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
 
         <section id="contacto">
             <div class="row py-sm-4 py-3">

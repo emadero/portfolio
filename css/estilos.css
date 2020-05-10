@@ -38,7 +38,14 @@ nav .active{
     width: 40px;
     height: 37px;
     border-radius: 5px;
-    margin-left: 290px;
+
+}
+.navbar-bar{
+    background-color: #1e1e1e;
+    z-index: 1000;
+    height: 100vh;
+    position: absolute;
+    width: 100%;
 }
 .btn{
     background-color: black;
@@ -134,14 +141,6 @@ footer i {
 #experiencia{
     background-color: rgb(45, 45, 45);
     color: white;
-}
-.navbar-toggler {
-    font-size: 1.25rem;
-    line-height: 1;
-    background-color: transparent;
-    border: 1px solid transparent;
-    border-radius: .25rem;
-    margin-left: -315px;
 }
 #experiencia h3 {
     color: white;

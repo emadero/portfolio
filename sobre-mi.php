@@ -6,8 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sobre mí</title>
     <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;900&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/fontawesome/css/all.min.css">
     <link rel="stylesheet" href="css/fontawesome/css/fontawesome.min.css">
@@ -22,29 +21,9 @@
 
 <body>
     <div class="container">
-        <nav class="navbar navbar-expand-md">
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault"
-                aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon fa fa-bars"></span>
-            </button>
 
-            <div class="collapse navbar-collapse" id="navbarsExampleDefault">
-                <ul class="navbar-nav mr-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="index.html">Inicio</a>
-                    </li>
-                    <li class="nav-item active">
-                        <a class="nav-link" href="sobre-mi.html">Sobre Mí</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="proyectos.html">Proyectos</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="contacto.html">Contacto</a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
+        <?php include_once("menu.php"); ?>
+
 
 
         <section id="sobre-mi">
@@ -56,8 +35,7 @@
                     <a href="" class="btn my-4" target="_blank">Descargar CV</a>
                 </div>
                 <div class="col-sm-3 col-9 mx-5">
-                    <img src="images/emadero.JPG" alt="Federico Madero" title="Federico Madero"
-                        class="img-fluid img-circle">
+                    <img src="images/emadero.JPG" alt="Federico Madero" title="Federico Madero" class="img-fluid img-circle">
                 </div>
             </div>
             <div class="row my-sm-4 my-3">
@@ -140,8 +118,7 @@
                     <h3>2016 - Presente Clases Particulares</h3>
                 </div>
                 <div class="col-12 col-sm-2">
-                    <img src="images/part.jpg" class="img-resposive py-3 py-sm-0" width="70" alt="ClasesParticulares"
-                        title="Clases Particulares">
+                    <img src="images/part.jpg" class="img-resposive py-3 py-sm-0" width="70" alt="ClasesParticulares" title="Clases Particulares">
                 </div>
                 <div class="col-12 col-sm-8">
                     <h4>Dictado de clases individuales y grupales, con principal énfasis en ciencias exactas.</h4>

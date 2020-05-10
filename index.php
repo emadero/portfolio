@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contacto</title>
+    <title>Inicio</title>
     <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;900&display=swap"
         rel="stylesheet">
@@ -19,36 +19,14 @@
 <body>
     <div id="Inicio" class="container-fluid">
         <div class="container">
-            <nav class="navbar navbar-expand-md">
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault"
-                    aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon fa fa-bars"></span>
-                </button>
-
-                <div class="collapse navbar-collapse" id="navbarsExampleDefault">
-                    <ul class="navbar-nav mr-auto">
-                        <li class="nav-item">
-                            <a class="nav-link active" href="index.html">Inicio</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="sobre-mi.html">Sobre Mí</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="proyectos.html">Proyectos</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="contacto.html">Contacto</a>
-                        </li>
-                    </ul>
-                </div>
-            </nav>
+           <?php include_once("menu.php");?>
             <div class="container">
                 <section>
                     <div class="row py-sm-4 py-3">
-                        <div class="col-sm-7 col-12">
+                        <div class="col-sm-8 col-12">
                             <h1>Hola! <br>Bienvenido a mi web</h1>
                             <h2> Eduardo Federico Madero Torres</h2>
-                            <a href="contacto.html" class="btn mt-sm-4">Conocé mis proyectos</a>
+                            <a href="proyectos.php" class="btn mt-sm-4">Conocé mis proyectos</a>
                         </div>
                     </div>
 
