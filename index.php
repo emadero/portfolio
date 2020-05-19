@@ -1,3 +1,6 @@
+<?php
+    $pg = "inicio";
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -6,8 +9,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Inicio</title>
     <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;900&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/fontawesome/css/all.min.css">
     <link rel="stylesheet" href="css/fontawesome/css/fontawesome.min.css">
@@ -19,7 +21,7 @@
 <body>
     <div id="Inicio" class="container-fluid">
         <div class="container">
-           <?php include_once("menu.php");?>
+            <?php include_once("menu.php"); ?>
             <div class="container">
                 <section>
                     <div class="row py-sm-4 py-3">

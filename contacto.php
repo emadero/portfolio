@@ -1,14 +1,15 @@
-<?php 
-include_once ("PHPMailer/src/PHPMailer.php");
-include_once ("PHPMailer/src/SMTP.php");
+<?php
 
+/*include_once("PHPMailer/src/PHPMailer.php");*/
+/*include_once("PHPMailer/src/SMTP.php");*/
+    $pg = "contacto";    
 /*if($_POST){
     $nombre = $_POST["txtNombre"];
     $correo = $_POST["txtCorreo"];
     $nombre = $_POST["txtAsunto"];
     $nombre = $_POST["txtMensaje"];
 }
-//envio el correo
+//envio el correo aca ver manual 
 if($nombre)
 */
 
@@ -23,8 +24,7 @@ if($nombre)
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contacto</title>
     <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;900&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/fontawesome/css/all.min.css">
     <link rel="stylesheet" href="css/fontawesome/css/fontawesome.min.css">
@@ -35,7 +35,7 @@ if($nombre)
 
 <body>
     <div class="container">
-    <?php include_once("menu.php");?>
+        <?php include_once("menu.php"); ?>
 
 
         <section id="contacto">
@@ -46,9 +46,7 @@ if($nombre)
             </div>
             <div class="row  py-sm-3 py-2">
                 <div class="col 12 col-sm-6">
-                    <h2>Para más detalles sobre mi trabajo te invito ver mi <a href="https://www.linkedin.com/"
-                            class="optDown">Linkedin</a>, descargar mi <span class="optDown">CV</span> o mandarme un <a
-                            href="#formulario" class="optDown">mensaje.</a>
+                    <h2>Para más detalles sobre mi trabajo te invito ver mi <a href="https://www.linkedin.com/" class="optDown">Linkedin</a>, descargar mi <span class="optDown">CV</span> o mandarme un <a href="#formulario" class="optDown">mensaje.</a>
                     </h2>
                 </div>
             </div>
@@ -57,20 +55,16 @@ if($nombre)
                     <form action="">
                         <div class="row my-4">
                             <div class="col-6 form-group">
-                                <input type="text" name="txtNombre" id="txtNombre" class="form-control" required
-                                    placeholder="NOMBRE">
+                                <input type="text" name="txtNombre" id="txtNombre" class="form-control" required placeholder="NOMBRE">
                             </div>
                             <div class="col-6 form-group">
-                                <input type="email" name="txtCorreo" id="txtCorreo" class="form-control" required
-                                    placeholder="EMAIL">
+                                <input type="email" name="txtCorreo" id="txtCorreo" class="form-control" required placeholder="EMAIL">
                             </div>
                             <div class="col-12 form-group">
-                                <input type="text" name="txtAsunto" id="txtAsunto" class="form-control"
-                                    placeholder="ASUNTO">
+                                <input type="text" name="txtAsunto" id="txtAsunto" class="form-control" placeholder="ASUNTO">
                             </div>
                             <div class="col-12 form-group">
-                                <textarea name="txtMensaje" id="txtMensaje" rows="7" placeholder="MENSAJE"
-                                    class="form-control"></textarea>
+                                <textarea name="txtMensaje" id="txtMensaje" rows="7" placeholder="MENSAJE" class="form-control"></textarea>
                             </div>
                             <div class="col-12 text-center py-2">
                                 <input type="submit" value="ENVIAR" name="btnEnviar" class="btn">

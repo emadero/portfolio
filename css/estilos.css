@@ -40,13 +40,7 @@ nav .active{
     border-radius: 5px;
 
 }
-.navbar-bar{
-    background-color: #1e1e1e;
-    z-index: 1000;
-    height: 100vh;
-    position: absolute;
-    width: 100%;
-}
+
 .btn{
     background-color: black;
     color: white;
